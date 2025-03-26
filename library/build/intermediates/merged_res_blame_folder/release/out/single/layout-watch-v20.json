@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.daikokuten.sdk.library-appcompat-1.6.1-6:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.daikokuten.sdk.library-appcompat-1.6.1-6:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

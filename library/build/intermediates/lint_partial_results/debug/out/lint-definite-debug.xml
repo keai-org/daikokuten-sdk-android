@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;💬&quot;, should use `@string` resource">
+        <location
+            file="${:library*debug*sourceProvider*0*resDir*0}/layout/chat_button_layout.xml"
+            line="12"
+            column="9"
+            startOffset="423"
+            endLine="12"
+            endColumn="26"
+            endOffset="440"/>
+    </incident>
+
+    <incident
+        id="SetJavaScriptEnabled"
+        severity="warning"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="${:library*debug*sourceProvider*0*javaDir*0}/com/daikokuten/sdk/ChatButtonView.kt"
+            line="49"
+            column="13"
+            startOffset="1697"
+            endLine="49"
+            endColumn="46"
+            endOffset="1730"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:library*projectDir}/build.gradle"
+            line="22"
+            column="20"
+            startOffset="370"
+            endLine="22"
+            endColumn="56"
+            endOffset="406"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:library*projectDir}/build.gradle"
+            line="23"
+            column="20"
+            startOffset="426"
+            endLine="23"
+            endColumn="70"
+            endOffset="476"/>
+    </incident>
+
+</incidents>

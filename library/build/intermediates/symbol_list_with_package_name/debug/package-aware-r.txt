@@ -1,0 +1,3 @@
+com.daikokuten.sdk
+id chat_button
+layout chat_button_layout

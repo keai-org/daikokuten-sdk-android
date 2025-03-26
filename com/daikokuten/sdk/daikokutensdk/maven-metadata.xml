@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.daikokuten.sdk</groupId>
+  <artifactId>daikokutensdk</artifactId>
+  <versioning>
+    <latest>0.1.0-local</latest>
+    <release>0.1.0-local</release>
+    <versions>
+      <version>0.1.0-local</version>
+    </versions>
+    <lastUpdated>20250320155308</lastUpdated>
+  </versioning>
+</metadata>

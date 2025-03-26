@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.daikokuten.sdk.library-mergeReleaseResources-18:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/60cd596aafa3b3e4afd0c6b6ffb24cd5/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.daikokuten.sdk.library-merged_res-20:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/60cd596aafa3b3e4afd0c6b6ffb24cd5/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

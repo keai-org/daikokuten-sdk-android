@@ -1,0 +1,2 @@
+int id chat_button 0x0
+int layout chat_button_layout 0x0

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.daikokuten.sdk.library-core-1.9.0-11:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.daikokuten.sdk.library-core-1.9.0-11:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-v21/notification_action.xml",
+        "source": "com.daikokuten.sdk.library-core-1.9.0-11:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.daikokuten.sdk.library-merged_res-20:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.daikokuten.sdk.library-core-1.9.0-11:/layout-v21/notification_action_tombstone.xml"
+    }
+]
