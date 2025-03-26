@@ -3,9 +3,11 @@ package com.daikokuten.sdk
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
+import android.view.View
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams
 import android.widget.Button
 
 class ChatButtonView @JvmOverloads constructor(
@@ -38,10 +40,14 @@ class ChatButtonView @JvmOverloads constructor(
             layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT).apply {
                 width = (resources.displayMetrics.widthPixels * 0.9).toInt()
                 height = (resources.displayMetrics.heightPixels * 0.6).toInt()
-                addRule(CENTER_IN_PARENT)
+                // Replace addRule with direct constraint properties
+                leftToLeft = LayoutParams.PARENT_ID
+                rightToRight = LayoutParams.PARENT_ID
+                topToTop = LayoutParams.PARENT_ID
+                bottomToBottom = LayoutParams.PARENT_ID
             }
-            setBackgroundColor(resources.getColor(android.R.color.white))
-            visibility = GONE
+            setBackgroundColor(context.getColor(android.R.color.white))
+            visibility = View.GONE
         }
 
         webView = WebView(context).apply {
@@ -62,26 +68,30 @@ class ChatButtonView @JvmOverloads constructor(
             <script>
             window.onload = function() {
                 function initDaikokuten() {
+                    console.log("Daikokuten INIT")
                     if (typeof Daikokuten !== 'undefined') {
-                        new Daikokuten("$userId", "$accessToken", $testMode);
+                        console.log("Daikokuten NEW")
+                        const daikokuten = new Daikokuten("$userId", "$accessToken", false, "android");
                     } else {
-                        setTimeout(initDaikokuten, 100);
+                        console.log("Daikokuten RETRYING")
+                        setTimeout(initDaikokuten, 1000);
                     }
                 }
                 initDaikokuten();
+                console.log("Daikokuten START")
             };
             </script>
         </head>
         <body></body>
         </html>
         """
-        webView.loadData(html, "text/html", "UTF-8") // Use loadData instead
+        webView.loadData(html, "text/html", "UTF-8")
     }
 
     private fun toggleModal() {
         if (!::modalView.isInitialized) {
             setupWebView()
         }
-        modalView.visibility = if (modalView.visibility == GONE) VISIBLE else GONE
+        modalView.visibility = if (modalView.visibility == View.GONE) View.VISIBLE else View.GONE
     }
 }

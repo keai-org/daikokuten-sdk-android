@@ -8,7 +8,7 @@
 *.aar
 *.ap_
 *.aab
-/build
+/build/*
 */build/
 
 # Gradle files
@@ -51,7 +51,7 @@ gen/
 out/
 
 # Gradle wrapper distribution (if not versioning)
-gradle/
+gradle/*
 
 # Sensitive information
 *.keystore
