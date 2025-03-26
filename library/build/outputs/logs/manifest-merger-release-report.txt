@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml:2:13-83
-INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml:2:13-83
+ADDED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml:2:13-83
+INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml:2:13-83
 	package
-		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml
+		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml
 	xmlns:android
-		ADDED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml:2:23-81
+		ADDED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml:2:23-81
 uses-sdk
-INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml reason: use-sdk injection requested
-INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml
-INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml
+INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml reason: use-sdk injection requested
+INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml
+INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml
 	android:targetSdkVersion
-		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml
+		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml
 	android:minSdkVersion
-		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest14927673761805269185.xml
+		INJECTED from /home/dononefallen/Development/kaindi/daikokuten/sdk/android/library/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest6988086012787693723.xml

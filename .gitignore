@@ -1,3 +1,59 @@
 /.gradle/*
+/com/*
 /build.gradle
 /library/build.gradle
+
+# Android build outputs
+*.apk
+*.aar
+*.ap_
+*.aab
+/build
+*/build/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration files
+local.properties
+*.local
+
+# IDE files (Android Studio / IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Dependency directories
+/external/
+/libs/
+
+# Log files
+*.log
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Generated files
+captures/
+bin/
+gen/
+out/
+
+# Gradle wrapper distribution (if not versioning)
+gradle/
+
+# Sensitive information
+*.keystore
+*.jks
+*.p12
