@@ -4,7 +4,7 @@
             "outputFile": "com.daikokuten.sdk.library-merged_res-20:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/dononefallen/.gradle/caches/transforms-4/8b7d7c6033c0ad55d1cbada688971ac0/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/ba870c84d65f03ba95f150b20a55684b/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/dononefallen/.gradle/caches/transforms-4/60cd596aafa3b3e4afd0c6b6ffb24cd5/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/eef6369c3c6086426b2c6c6c50288813/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
             "outputFile": "com.daikokuten.sdk.library-mergeReleaseResources-18:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/dononefallen/.gradle/caches/transforms-4/8b7d7c6033c0ad55d1cbada688971ac0/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/ba870c84d65f03ba95f150b20a55684b/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/home/dononefallen/.gradle/caches/transforms-4/60cd596aafa3b3e4afd0c6b6ffb24cd5/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/home/dononefallen/.gradle/caches/transforms-4/eef6369c3c6086426b2c6c6c50288813/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

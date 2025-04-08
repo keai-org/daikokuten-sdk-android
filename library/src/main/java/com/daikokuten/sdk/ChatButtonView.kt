@@ -37,7 +37,7 @@ class ChatButtonView @JvmOverloads constructor(
         if (::modalView.isInitialized) return
 
         modalView = ConstraintLayout(context).apply {
-            layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT).apply {
+            layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT).apply {
                 width = (resources.displayMetrics.widthPixels * 0.9).toInt()
                 height = (resources.displayMetrics.heightPixels * 0.6).toInt()
                 // Replace addRule with direct constraint properties
